@@ -210,3 +210,76 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const questions = [
+  {
+    id: 1,
+    title: "Why do I need a web application?",
+    info: "Web application allows you to management your work, business etc.. from anywhere, anytime from your mobile phone or laptop Web application allows you to management your work, business etc.. from anywhere, anytime from your mobile phone or laptop.",
+  },
+  {
+    id: 2,
+    title: "Why do I need a web application?",
+    info: "Web application allows you to management your work, business etc.. from anywhere, anytime from your mobile phone or laptop.",
+  },
+  {
+    id: 3,
+    title: "Why do I need a web application?",
+    info: "Web application allows you to management your work, business etc.. from anywhere, anytime from your mobile phone or laptop.",
+  },
+  {
+    id: 4,
+    title: "Why do I need a web application?",
+    info: "Web application allows you to management your work, business etc.. from anywhere, anytime from your mobile phone or laptop.",
+  },
+];
+export const featurePlans = [
+  {
+    title: "Full-Stack Applications",
+    price: 500,
+    currency: "PGK",
+    freguency: "/month",
+    description: "The essentials to provide your best work for clients.",
+    features: [
+      "5 products",
+      "Up to 1,000 subscribers",
+      "Basic analytics",
+      "48-hour support response time",
+    ],
+    cta: "Start your trial",
+    mostPopular: false,
+  },
+  {
+    title: "E-Commerce Applications",
+    price: 1000,
+    currency: "PGK",
+    frequency: "/month",
+    description: " A plan that scales with your rapidly growing business.",
+    features: [
+      "25 products",
+      "Up to 10, 000 subscribers",
+      "Advanced analytics",
+      "24-hour support response time.",
+      "Marketing automations.",
+    ],
+    cta: "Start your trial",
+    mostPopular: true,
+  },
+  {
+    title: "Mobile Apps",
+    price: 2500,
+    currency: "PGK",
+    frequency: "/month",
+    description: "Dedicated support and infrastructure for your company.",
+    features: [
+      "Unlimited products",
+      "Unlimited subscribers",
+      "Advanced analytics",
+      "One-hour, dedicated support response time",
+      "Marketing automations",
+      "Salesforce, Clearbit Reveal & Marketo Intefrations.",
+    ],
+    cta: "Start your trial",
+    mostPolular: false,
+  },
+];

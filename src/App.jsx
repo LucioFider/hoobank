@@ -12,6 +12,8 @@ import {
   Testimonials,
   Hero,
 } from "./components";
+import Accordion from "./components/Accordion";
+import Features from "./components/Features";
 
 const App = () => {
   return (
@@ -29,7 +31,9 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
-          <Clients /> <CTA /> <Footer />
+          <Clients />
+          <Features />
+          <Accordion /> <CTA /> <Footer />
         </div>
       </div>
     </div>
