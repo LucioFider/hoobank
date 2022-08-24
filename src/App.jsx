@@ -14,6 +14,7 @@ import {
 } from "./components";
 import Accordion from "./components/Accordion";
 import Features from "./components/Features";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -33,7 +34,9 @@ const App = () => {
           <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
           <Clients />
           <Features />
-          <Accordion /> <CTA /> <Footer />
+          <Accordion /> <CTA />
+          {/* <Contact /> */}
+          <Footer />
         </div>
       </div>
     </div>
